@@ -12,11 +12,13 @@
 <link rel="preload" as="image" href="img/hero-d-1440.webp" imagesrcset="img/hero-d-960.webp 960w, img/hero-d-1440.webp 1440w, img/hero-d-1920.webp 1920w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
 <link rel="preload" as="font" type="font/woff2" href="fonts/lato700-rdzen.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="fonts/lato400-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/lato700-pl.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/lato400-pl.woff2" crossorigin>
 <style>
-@font-face{font-family:Lato;font-weight:400;font-display:swap;src:url(fonts/lato400-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
-@font-face{font-family:Lato;font-weight:400;font-display:swap;src:url(fonts/lato400-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
-@font-face{font-family:Lato;font-weight:700;font-display:swap;src:url(fonts/lato700-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
-@font-face{font-family:Lato;font-weight:700;font-display:swap;src:url(fonts/lato700-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:Lato;font-weight:400;font-display:optional;src:url(fonts/lato400-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:Lato;font-weight:400;font-display:optional;src:url(fonts/lato400-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:Lato;font-weight:700;font-display:optional;src:url(fonts/lato700-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:Lato;font-weight:700;font-display:optional;src:url(fonts/lato700-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
 @font-face{font-family:"Lato fb";src:local("Arial");size-adjust:97%;ascent-override:101%;descent-override:22%}
 /* kolory: czern logo #050505, pomarancz #F97632 i blekit #00679A z ich strony, glebina #062C42 */
 :root{--or:#F97632;--or-d:#E5621D;--bl:#00679A;--bl-d:#00547E;--deep:#062C42;--deep2:#041F30;--bk:#050505;--ink:#0E1A22;--mut:#4F5D66;--g:#EEF3F6;--line:#D5DEE4;--hh:76px;--w:min(calc(100vw - 32px),1760px);--F:Lato,"Lato fb",Arial,sans-serif}
@@ -377,7 +379,7 @@ footer .prof{width:120px;height:30px;margin-top:20px}
       <svg class="linia" aria-hidden="true" viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M0 0.3H21.5L28.2 3.3H46.5L53.2 6.4H71.5L78.2 9.4H100"/></svg>
       <article class="krs">
         <p class="gl"><b>10</b>m</p>
-        <div class="ph"><img src="img/k-intro-480.webp" srcset="img/k-intro-480.webp 480w, img/k-intro-800.webp 800w" sizes="(max-width:760px) 84vw, (max-width:1180px) 50vw, 25vw" width="800" height="588" loading="lazy" alt="Nurek nad piaszczystym dnem w płytkiej zatoce"></div>
+        <div class="ph"><img src="img/k-intro-480.webp" srcset="img/k-intro-480.webp 480w, img/k-intro-640.webp 640w, img/k-intro-800.webp 800w" sizes="(max-width:760px) 84vw, (max-width:1180px) 50vw, 25vw" width="800" height="588" loading="lazy" alt="Nurek nad piaszczystym dnem w płytkiej zatoce"></div>
         <h3>Nurkowanie próbne</h3>
         <p class="op">Pierwszy oddech pod wodą z instruktorem, w płytkiej zatoce.</p>
         <ul><li>Od 10 lat, bez doświadczenia</li><li>Około 30 minut pod wodą, do 10 m</li><li>Sprzęt i instruktor w cenie</li><li>Koszt odliczamy od kursu OWD</li></ul>
@@ -385,7 +387,7 @@ footer .prof{width:120px;height:30px;margin-top:20px}
       </article>
       <article class="krs">
         <p class="gl"><b>18</b>m</p>
-        <div class="ph"><img src="img/k-owd-480.webp" srcset="img/k-owd-480.webp 480w, img/k-owd-800.webp 800w" sizes="(max-width:760px) 84vw, (max-width:1180px) 50vw, 25vw" width="800" height="600" loading="lazy" alt="Kursantka pokazuje znak OK pod wodą"></div>
+        <div class="ph"><img src="img/k-owd-480.webp" srcset="img/k-owd-480.webp 480w, img/k-owd-640.webp 640w, img/k-owd-800.webp 800w" sizes="(max-width:760px) 84vw, (max-width:1180px) 50vw, 25vw" width="800" height="600" loading="lazy" alt="Kursantka pokazuje znak OK pod wodą"></div>
         <h3>Open Water Diver</h3>
         <p class="op">Pierwszy stopień: certyfikat ważny dożywotnio na całym świecie.</p>
         <ul><li>Teoria online i zajęcia w zatoce</li><li>5 nurkowań na wodach otwartych</li><li>Intensywnie nawet w 4 dni</li><li>Kompletny sprzęt na czas kursu</li></ul>
@@ -393,7 +395,7 @@ footer .prof{width:120px;height:30px;margin-top:20px}
       </article>
       <article class="krs">
         <p class="gl"><b>30</b>m</p>
-        <div class="ph"><img src="img/k-aowd-480.webp" srcset="img/k-aowd-480.webp 480w, img/k-aowd-800.webp 800w" sizes="(max-width:760px) 84vw, (max-width:1180px) 50vw, 25vw" width="800" height="600" loading="lazy" alt="Nurek przy nadbudówce wraku"></div>
+        <div class="ph"><img src="img/k-aowd-480.webp" srcset="img/k-aowd-480.webp 480w, img/k-aowd-640.webp 640w, img/k-aowd-800.webp 800w" sizes="(max-width:760px) 84vw, (max-width:1180px) 50vw, 25vw" width="800" height="600" loading="lazy" alt="Nurek przy nadbudówce wraku"></div>
         <h3>Advanced Open Water</h3>
         <p class="op">Nurek zaawansowany: od razu po kursie OWD.</p>
         <ul><li>5 nurkowań typu Adventure</li><li>Obowiązkowo głębokie i nawigacja</li><li>Do wyboru m.in. wrak, nocne, nitrox</li><li>Brakujący sprzęt gratis</li></ul>
@@ -401,7 +403,7 @@ footer .prof{width:120px;height:30px;margin-top:20px}
       </article>
       <article class="krs">
         <p class="gl"><b>40</b>m</p>
-        <div class="ph"><img src="img/k-deep-480.webp" srcset="img/k-deep-480.webp 480w, img/k-deep-800.webp 800w" sizes="(max-width:760px) 84vw, (max-width:1180px) 50vw, 25vw" width="800" height="600" loading="lazy" alt="Nurkowie wzdłuż skalnej ściany w głębokiej wodzie"></div>
+        <div class="ph"><img src="img/k-deep-480.webp" srcset="img/k-deep-480.webp 480w, img/k-deep-640.webp 640w, img/k-deep-800.webp 800w" sizes="(max-width:760px) 84vw, (max-width:1180px) 50vw, 25vw" width="800" height="600" loading="lazy" alt="Nurkowie wzdłuż skalnej ściany w głębokiej wodzie"></div>
         <h3>Deep Diver</h3>
         <p class="op">Nurkowanie na powietrzu do 40 metrów, w ciepłej i przejrzystej wodzie Gozo.</p>
         <ul><li>Od 15 lat, po AOWD</li><li>Minimum 30 zalogowanych nurkowań</li><li>Planowanie i sytuacje awaryjne</li><li>Brakujący sprzęt gratis</li></ul>
@@ -494,7 +496,7 @@ footer .prof{width:120px;height:30px;margin-top:20px}
 <section class="g" id="z-nami">
   <div class="wrap zn">
     <div>
-      <div class="ph"><img src="img/k-grupa-480.webp" srcset="img/k-grupa-480.webp 480w, img/k-grupa-800.webp 800w" sizes="(max-width:980px) 100vw, 48vw" width="800" height="600" loading="lazy" alt="Nurkowie schodzą z łodzi do wody"></div>
+      <div class="ph"><img src="img/k-grupa-480.webp" srcset="img/k-grupa-480.webp 480w, img/k-grupa-640.webp 640w, img/k-grupa-800.webp 800w" sizes="(max-width:980px) 100vw, 48vw" width="800" height="600" loading="lazy" alt="Nurkowie schodzą z łodzi do wody"></div>
       <div class="faq">
         <h3>Najczęstsze pytania</h3>
         <details><summary>Czy muszę mieć doświadczenie?</summary><p>Nie. Prowadzimy kursy również dla osób bez żadnego doświadczenia, a na początek polecamy nurkowanie próbne.</p></details>
